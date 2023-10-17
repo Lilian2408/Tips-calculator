@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'space mono';
+}
+
+body{
+    background: #c5e4e7;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+    background-color: white;
+    height: 500px;
+    width: 70%;
+    padding: 0 30px;
+    box-shadow: 3px 3px 12px rgb(247, 247, 248);
+    margin: 230px auto;
+}
+
+.head {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.heads {
+    padding: 10px;
+}
+
+.heads h3 {
+    padding: 10px;
+    Color: #5e7a7d;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #c5e4e7;
+    border: none;
+}
+
+.header {
+    border-radius: 20px;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 3px 3px 12px rgb(187, 186, 238);
+    background-color: #00494d;
+    margin: 50px auto;
+}
+
+.tip,
+.total {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 0;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.sum button,
+.reset button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #c5e4e7;
+    color: #00494d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.highlight {
+    color: #c5e4e7;
+}
+
+.header h3 {
+    color: #23728b;
+}
+
+.header p {
+    font-size: 40px;
+    color: #24bba7;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-radius: 20px;
+        background-color: white;
+        height: 500px;
+        width: 80%;
+        padding: 0 10px;
+        box-shadow: 3px 3px 12px rgb(247, 247, 248);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    main {
+        display: grid;
+        grid-template-columns:  1fr;
+        border-radius: 20px;
+        background-color: white;
+        height: 700px;
+        width: 80%;
+        padding: 0 10px;
+        box-shadow: 3px 3px 12px rgb(247, 247, 248);
+     
+    }
+    
+.head {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.heads h3 {
+    padding: 11px;
+    Color: #5e7a7d;
+}
+
+.header {
+    border-radius: 20px;
+    background-color: white;
+    height: 320px;
+    width: 90%;
+    padding:10px ;
+    box-shadow: 3px 3px 12px rgb(187, 186, 238);
+    background-color: #00494d;
+}
+
+.tip,
+.total {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 400;
+}
+}
+
+@media screen and (max-width: 576px){
+
+}
